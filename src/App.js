@@ -1,22 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import YouTubeFinal from './components/YouTubeFinal';
+
+// TODO: THINK ABOUT OBJECT STRUCTURE FOR VIDEO
+// - ID
+// - START TIME
+// - END TIME
+// - VIDEO ID
+// - VIDEO URL
+// - CLIP TITLE
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <YouTubeFinal videoId={"h3CNLY7fSzU"} />
       </header>
     </div>
   );
