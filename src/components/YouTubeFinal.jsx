@@ -40,12 +40,10 @@ const YouTubePlayer = ({ videoId }) => {
 
   const playVideo = () => {
     player.playVideo();
-    // setIsPlaying(true);
   };
 
   const pauseVideo = () => {
     player.pauseVideo();
-    // setIsPlaying(false);
   };
 
   const restartVideo = () => {
